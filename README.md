@@ -4,15 +4,15 @@
   - Open Settings -> Editor -> Copyright -> Copyright Profiles
   - Pass below text.
   
-  #  +-------------------------------------------------------+
-  #  | NAME  : PHO KHAING                                    |
-  #  | EMAIL : khaing.pho1991@gmail.com                      |
-  #  | DUTY  : FTB BANK (HEAD OFFICE)                        |
-  #  | ROLE  : Full-Stack Software Developer                 |
-  #  +-------------------------------------------------------+
-  #  | Copyright (c) $originalComment.match("Copyright \(c\) (\d+)", 1, "-", "$today.year")$today.year.                                   |
-  #  | Released $today.day.$today.month.$today.year.                                   |
-  #  +-------------------------------------------------------+
+  - #  +-------------------------------------------------------+
+  - #  | NAME  : PHO KHAING                                    |
+  - #  | EMAIL : khaing.pho1991@gmail.com                      |
+  - #  | DUTY  : FTB BANK (HEAD OFFICE)                        |
+  - #  | ROLE  : Full-Stack Software Developer                 |
+  - #  +-------------------------------------------------------+
+  - #  | Copyright (c) $originalComment.match("Copyright \(c\) (\d+)", 1, "-", "$today.year")$today.year.                                   |
+  - #  | Released $today.day.$today.month.$today.year.                                   |
+  - #  +-------------------------------------------------------+
 
 # Plugin Installed:
   - Atom Material Icons: for apply icons to project directory
